@@ -1,0 +1,50 @@
+@media screen and (max-width: 480px) {
+    .team {
+        grid-template-columns: repeat(1, 1fr)!important;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        width: 80%;
+    }
+
+    #home {
+        padding-top: 15vh;
+    }
+
+    nav {
+        margin-top: 0;
+        background: rgba(0, 0, 0, 0.5);
+    
+        ul {
+            float: none;
+            text-align: center;
+        }
+
+        li {
+            padding: 5px;
+        }
+    }
+
+    #about {
+        padding-top: 5vh;
+        height: 100%;
+
+        a {
+            display: none;
+        }
+    }
+
+    .team {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #team {
+        height: 100%;
+    }
+
+    footer {
+        margin-top: 2vh;
+    }
+}
